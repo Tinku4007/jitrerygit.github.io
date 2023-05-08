@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Clayton";
+    src: url(../public/font/Clayton-Regular.otf);
+}
+
+@font-face {
+    font-family: "Ailerons";
+    src: url(.././public/font/Ailerons-Typeface.otf);
+}
+
+
+
+@font-face {
+    font-family: 'AmsiPro-Bold';
+    src: url(../public/font/AmsiPro-Bold.woff);
+}
+
+@font-face {
+    font-family: "AmsiPro Ultra";
+    src: url(../public/font/FontsFree-Net-AmsiPro-Ultra.ttf);
+
+}
+
+@font-face {
+    font-family: "Ailerons" ;
+    src: url(../public/font/Ailerons-Typeface.otf);
+}
+
+/* @font-face {
+    font-family: "claybold";
+    src: url(../public/font/ClaytonBold.ttf);
+} */

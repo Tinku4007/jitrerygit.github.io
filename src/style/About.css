@@ -1,0 +1,255 @@
+.banner-section{
+    background-image: url(../../public/images/about-header.webp);
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutus-header {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.about-header_menu li a {
+    color: #fff !important;
+}
+.desktop-icon i {
+    color: #fff !important;
+}
+.about-caption_header {
+    background: #f1f1f1 !important;
+    color: #fff !IMPORTANT;
+}
+.about-caption_header h1{
+    color: #313131 !IMPORTANT;
+}
+.banner-section h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 90px;
+    line-height: 75px;
+    font-weight: 900;
+}
+section.banner-section .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.high-quilaty-content-section .inner-content-wraper {
+    display: flex;
+    gap: 20px;
+}
+.high-quilaty-content-section .inner-content-wraper .high-quality {
+    width: 50%;
+    position: relative;
+}
+section.high-quilaty-content-section {
+    padding: 100px 0px;
+}
+.high-quilaty-content-section .inner-content-wraper .high-quality h1 {
+    font-size: 70px;
+    line-height: 60px;
+    color:#212529;
+    font-weight: 800;
+}
+.high-quilaty-content-section .inner-content-wraper .high-quality p {
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    font-family: 'clayton';
+    color:#212529;
+    font-weight: 500;
+}
+.high-quilaty-content-section .inner-content-wraper .heading-div:before {
+    content: "";
+    background: #212529;
+    height: 4px;
+    width: 100px;
+    border: 1px solid;
+    position: absolute;
+    top: -12px;
+}
+.learing-section .full-img-learing img{
+    width: 100%;
+}
+section.our-brand-scetion {
+    padding: 100px 0px;
+}
+.our-brands .brand-title h1 {
+    font-size: 70px;
+    line-height: 60px;
+    color:#212529;
+    font-weight: 800;
+}
+.our-brands .brand-flex-div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+}
+.brand-content .inner-img-text img {
+    width: 50px;
+}
+.inner-img-text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+.inner-img-text h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.brand-text-area p{
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    font-family: 'clayton';
+    color:#212529;
+}
+.brand-content {
+    width: 50%;
+}
+.goto-btn a {
+    text-decoration: none;
+    color: white;
+    background: #2a2a2a;
+    padding: 14px 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.goto-btn {
+    margin-top: 30px;
+}
+.brand-content.dinomaniacs img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.brand-content.babies-single img {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+.top-border-line:before{
+    content: "";
+    background: #212529;
+    height: 4px;
+    width: 100px;
+    border: 1px solid;
+    position: absolute;
+    top: 10px
+}
+.testomonial-content h1 {
+    margin-bottom: 30px;
+    font-size: 50px;
+    line-height: 40px;
+    text-align: center;
+    color:#212529 ;
+    font-weight: 700;
+}
+.testomonial-content p {
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-family: 'clayton';
+    color: #212529;
+}
+.testomonial-content p strong{
+    font-weight: 600;
+}
+section.trusted-by-millions {
+    background: #f2f2f2;
+    padding: 100px 0px;
+}
+.testimonial {
+    height: auto !important;
+    margin-right: 10px;
+    position: relative;
+    transition: 0.3s;
+}
+.slide-content {
+    text-align: center;
+}
+.slide-image svg {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+.slide-content {
+    text-align: center;
+    background: #efefef;
+    padding-top: 40px;
+    height: 260px
+}
+.slide-image {
+    position: relative;
+    top: 30px;
+    left: 40%;
+}
+.person-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.person-detail i {
+    color: #ffc000;
+}
+.slick-custom-arrow img {
+    height: 30px;
+}
+.testimonial-slider.slick-slider{
+    position: relative;
+}
+.testimonial-slider .slick-custom-arrow.slick-custom-arrow-left {
+    position: absolute;
+    top: 60%;
+    left: -35px;
+}
+.testimonial-slider .slick-custom-arrow.slick-custom-arrow-right {
+    position: absolute;
+    top: 60%;
+    right: -35px;
+}
+.testimonial-slider .person-detail p {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    font-family: 'Open Sans';
+}
+.testimonial-slider .person-detail h3 {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Open Sans';
+}
+.testimonial-slider .person-detail h5 {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Open Sans';
+    color:#000000
+}
+.testimonial:hover {
+    transform: translate(0, -5px);
+}
+.testimonial-slider .slick-custom-arrow i:hover {
+    transform: scale(1.2);
+}
+.testimonial-slider .slick-custom-arrow i {
+    font-size: 26px;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #cac5c5;
+}
+
+/* @font-face {
+    font-family: 'clayton';
+    src: url(./fonts/Clayton-Regular.otf);
+} */
+.about-us-page .container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}

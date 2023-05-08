@@ -1,0 +1,876 @@
+.header-banner-dinomanics {
+  background-image: url(../../public/img/main-section-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 750px;
+}
+.dinoland-img-1 img {
+  height: 135px;
+  object-fit: contain;
+}
+.dinoland-img-2 img {
+  height: 300px;
+  object-fit: contain;
+}
+.dinoland {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -34%);
+}
+.down-arrow i {
+  color: #fff;
+  font-size: 32px;
+}
+.down-arrow {
+  text-align: center;
+}
+.dinomaniacs-title h6 {
+  font-family: "Teko", sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #314329;
+}
+.dinomaniacs-rating {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.site-title p {
+  font-family: "Clayton", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  margin-bottom: 45px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  margin-top: 25px;
+}
+.dinomaniacs-btn a {
+  background-color: rgb(217, 252, 61);
+  font-family: "Teko";
+  text-transform: uppercase;
+  height: auto;
+  width: auto;
+  color: rgb(42, 53, 36);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 20px;
+  border-color: rgb(42, 53, 36);
+  border-style: solid;
+  border-width: 3px;
+  box-shadow: rgb(0 0 0 / 25%) 0px 5px 10px 0px;
+  padding: 10px 30px 8px;
+  border-radius: 8px;
+  filter: blur(0px) grayscale(0%) brightness(100%);
+  transition: 0.2s ease-in-out;
+  font-weight: 600;
+}
+.dinomaniacs-product {
+  display: flex;
+  align-items: center;
+}
+.dinomaniacs-title {
+  width: 50%;
+  padding-left: 50px;
+}
+.dinomaniacs-section-1 {
+  background-color: #e4e6d9;
+  padding: 50px 0;
+}
+.dinomaniacs-img {
+  width: 50%;
+}
+.dinomaniacs-title img {
+  width: 400px;
+  margin-left: -14px;
+}
+
+.dinomaniacs-sub_icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center;
+  gap: 50px;
+}
+
+.dinomaniacs-sub_icon h2 {
+  font-family: "Teko", sans-serif;
+  font-size: 26px;
+  color: #606037;
+  font-weight: 600;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  letter-spacing: 0.03rem;
+  text-decoration: none !important;
+}
+.dinomaniacs-section-3 {
+  background-color: #e4e6d9;
+  padding: 50px 0;
+}
+.dinomaniacs-sub_icon h2 span {
+  padding: 15px;
+}
+.dino_egg {
+  display: flex;
+  align-items: center;
+}
+.dino-egg-img img {
+  height: 580px;
+  object-fit: contain;
+}
+.dinorace-track_price h6 {
+  font-family: "Teko", sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #314329;
+}
+.dinorace-track-rating {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.dinorace-track-rating h6 {
+  font-family: "Teko", sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #314329;
+}
+.dino-race_track {
+  display: flex;
+  align-items: center;
+}
+.dinomaniacs-section-2 {
+  background-color: #edeee6;
+  padding: 50px 15px;
+}
+.dinorace-track_img {
+  width: 50%;
+}
+.dinorace-track_title {
+  width: 50%;
+  padding-left: 50px;
+}
+.dinorace-track_title img {
+  width: 100%;
+  margin-left: -25px;
+}
+.dinosaur-pinata_img {
+  width: 50%;
+}
+.dinosaur-pinata_title {
+  width: 50%;
+}
+.dinosaur-pinata {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.dinomaniacs-section-4 {
+  background-color: #edeee6;
+  padding: 50px 50px;
+}
+.dinosaur-pinata_title img {
+  /* height: 190px; */
+  object-fit: contain;
+  width: 500px;
+  margin-left: -20px;
+}
+.dinosaur-pinata_title h6 {
+  font-family: "Teko", sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #314329;
+}
+.dinosaur-pinata-rating {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.dinomaniacs-section-5 {
+  padding: 50px 0;
+}
+.dinoblox-title h6 {
+  font-family: "Teko", sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #314329;
+}
+.dinoblox-title-rating {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.create-uniq {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 80px;
+}
+.create-uniq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.creatuniq-world_section {
+  background-color: #c7cab6;
+  padding: 50px 0;
+}
+.dinoblox {
+  display: flex;
+  align-items: center;
+}
+/* .creat-uniq_img img {
+    height: 250px;
+    object-fit: contain;
+} */
+/* ------------------------footer-------------- */
+footer {
+  background-color: #606037;
+}
+/* .footer-logo{
+    padding-top: 40px;
+} */
+.form-heading p {
+  color: #fff;
+  top: 0;
+  text-decoration: none;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: "Clayton", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+.footer-links li {
+  list-style: none;
+  font-family: "Teko", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #1d281a;
+}
+.footer-links li a {
+  text-decoration: none;
+  color: #bfbfaf;
+  font-family: "Teko", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.mail-form {
+  position: relative;
+}
+.all_right {
+  background-color: #000;
+}
+.merge-caption {
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.allright_caption {
+  color: #fff;
+}
+.allright_social-icon {
+  color: #fff;
+}
+.merge-caption h3 {
+  font-family: "Teko", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  line-height: 2.6;
+  font-weight: 100;
+}
+.allright_social-icon .fa-instagram {
+  padding: 0 15px;
+}
+
+.allright_social-icon i {
+  font-size: 1rem;
+}
+.footer-logo-img {
+  position: absolute;
+  top: -37px;
+  left: 354px;
+}
+.footer-logo {
+  position: relative;
+}
+.exclusive-signup {
+  width: 37%;
+  margin: auto;
+  position: relative;
+}
+input[type="Email"] {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  padding: 15px 30px 10px;
+  font-family: "Teko", sans-serif;
+  font-weight: 100;
+  border: 2px solid #000;
+  background-color: #606023;
+}
+input[type="Submit"] {
+  position: absolute;
+  padding: 9px 0 8px;
+  border-radius: 100px;
+  background: #c0f228;
+  width: 30%;
+  top: 0px;
+  right: 0px;
+  text-transform: uppercase;
+  font-family: "Teko";
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  border: 2px solid transparent;
+  transition: 0.5s;
+}
+input[type="Email"]::placeholder {
+  color: #fff;
+}
+.dinomaniacs-section-1 {
+  position: relative;
+  z-index: 1;
+}
+.dinomaniacs-section-1:after {
+  position: absolute;
+  content: "";
+  background-image: url(../../public/img/dino-bg-section3.png);
+  width: 30%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+.dinomaniacs-section-1:after {
+  position: absolute;
+  content: "";
+  background-image: url(../../public/img/dino-bg-section3.png);
+  width: 16%;
+  height: 64%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  top: 79px;
+  left: -29px;
+}
+.dinomaniacs-section-1:before {
+  position: absolute;
+  content: "";
+  background-image: url(../../public/img/plants-section-2.png);
+  width: 12%;
+  height: 64%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  top: 212px;
+  right: 0;
+}
+.dinomaniacs-section-2 {
+  position: relative;
+  z-index: 1;
+}
+.dinomaniacs-section-2:after {
+  position: absolute;
+  content: "";
+  background-image: url(../../public/img/leafs-section1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  width: 12%;
+  height: 64%;
+  top: 127px;
+  left: -3px;
+}
+.dinomaniacs-section-2:before {
+  position: absolute;
+  content: "";
+  background-image: url(../../public/img/dino1-section1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  width: 14%;
+  height: 70%;
+  bottom: -70px;
+  right: 0;
+}
+.dinomaniacs-section-3 {
+  position: relative;
+  z-index: 0;
+}
+.dinomaniacs-section-3:after {
+  content: "";
+  background-image: url(../../public/img/dino-bg-section2.png);
+  position: absolute;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  width: 17%;
+  height: 89%;
+  top: 16px;
+  left: -4px;
+}
+.dinomaniacs-section-3:before {
+  content: "";
+  background-image: url(../../public/img/plants-section-2.png);
+  position: absolute;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  width: 12%;
+  height: 48%;
+  bottom: 149px;
+  right: 0px;
+}
+.dinomaniacs-section-4 {
+  position: relative;
+  z-index: 0;
+}
+.dinomaniacs-section-4:after {
+  content: "";
+  background-image: url(../../public/img/plants-section-3.png);
+  position: absolute;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  width: 10%;
+  height: 56%;
+  bottom: 73px;
+  left: 0;
+}
+.dinomaniacs-section-4:before {
+  content: "";
+  background-image: url(../../public/img/dino4-section2.png);
+  position: absolute;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  width: 16%;
+  height: 71%;
+  bottom: -87px;
+  right: 0;
+}
+.dinomaniacs-section-5 {
+  position: relative;
+  z-index: 0;
+}
+.dinomaniacs-section-5:after {
+  content: "";
+  background-image: url(../../public/img/dino-bg-section-dino-blox-1.jpg);
+  position: absolute;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  width: 10%;
+  height: 77%;
+  top: 23px;
+  left: 0;
+}
+.dinoblox-title {
+  width: 50%;
+  padding-left: 50px;
+}
+.dinomaniacs-section-5:before {
+  content: "";
+  background-image: url(../../public/img/dino-bg-section-dino-blox.jpg);
+  position: absolute;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  width: 17%;
+  height: 77%;
+  top: 50px;
+  right: 0;
+}
+.dinoblox-title_img {
+  width: 50%;
+  padding-right: 50px;
+}
+.dinomaniacs-btn span i {
+  font-size: 20px;
+  font-weight: 900;
+}
+.slide-1 {
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .dinomaniacs-product {
+    flex-direction: column-reverse;
+  }
+  .dinomaniacs-img {
+    width: 100%;
+  }
+  .dinomaniacs-section-1:after {
+    height: 19%;
+    top: 0;
+  }
+  .dinomaniacs-title img {
+    width: 100%;
+  }
+  .dinomaniacs-title {
+    text-align: center;
+  }
+  .dinomaniacs-title br {
+    display: none;
+  }
+  .dinomaniacs-rating {
+    justify-content: center;
+  }
+  .dinomaniacs-title {
+    width: 51%;
+    padding: 0;
+  }
+  .dinomaniacs-sub_icon {
+    gap: 14px;
+    flex-direction: column;
+  }
+  .dinomaniacs-section-1:before {
+    height: 16%;
+    bottom: 0;
+    top: unset;
+  }
+  .dino_egg {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    flex-direction: column;
+  }
+  .dino-race_track {
+    flex-direction: column-reverse;
+  }
+  .dinorace-track_img {
+    width: 100%;
+  }
+  .dinorace-track_title br {
+    display: none;
+  }
+  .dinorace-track_title {
+    width: 50%;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .dinorace-track-rating {
+    justify-content: center;
+  }
+  .dinomaniacs-section-3:after {
+    height: 24%;
+  }
+  .dinomaniacs-section-3:before {
+    height: 20%;
+    bottom: 0;
+  }
+  .dinosaur-pinata {
+    flex-direction: column;
+  }
+  .dinosaur-pinata_img {
+    width: 100%;
+  }
+  .dinosaur-pinata_title {
+    width: 56%;
+    text-align: center;
+  }
+  .dinosaur-pinata_title br {
+    display: none;
+  }
+  .dinomaniacs-section-4:before {
+    height: 30%;
+    bottom: -90px;
+  }
+  .dinomaniacs-section-4:before {
+    height: 30%;
+    bottom: -159px;
+  }
+  .dinoblox {
+    flex-direction: column-reverse;
+  }
+  .dinoblox-title_img {
+    width: 100%;
+    padding-right: 50px;
+  }
+  .dinoblox-title {
+    padding-left: 0;
+    text-align: center;
+  }
+  .dinoblox-title-rating {
+    justify-content: center;
+  }
+  .dinoblox-title br {
+    display: none;
+  }
+  .dinomaniacs-section-5:before {
+    height: 18%;
+    top: 80px;
+  }
+  .dinomaniacs-section-5:after {
+    height: 20%;
+  }
+  .create-uniq {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .dinomaniacs-btn {
+    text-align: center !important;
+  }
+  .footer-logo-img {
+    left: 192px;
+  }
+  .creatuniq-world_section {
+    padding: 50px 0 84px;
+  }
+  .dinomaniacs-section-2:before {
+    height: 28%;
+    bottom: -114px;
+    right: 0;
+    top: unset;
+  }
+  .dinomaniacs-section-2:after {
+    width: 15%;
+    height: 30%;
+    bottom: 0;
+    left: 1px;
+    top: unset;
+  }
+  .dinomaniacs-section-3 {
+    position: relative;
+    z-index: 0;
+  }
+  .dinomaniacs-section-5 {
+    position: relative;
+    z-index: 0;
+  }
+  .dinomaniacs-section-4:after {
+    width: 12%;
+    height: 17%;
+  }
+  .dinoland {
+    transform: translate(-50%, -20%);
+  }
+  .dinomaniacs-footer {
+    top: -20px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .header-banner {
+    height: 450px !important;
+  }
+  .dinoland {
+    transform: translate(-50%, -50%) !important;
+    width: 100% !important;
+    top: 55%;
+  }
+  .dinoland-img-1 img {
+    height: 76px !important;
+  }
+  .dinoland-img-2 img {
+    height: 200px !important;
+  }
+  .dinomaniacs-section-1:after {
+    display: none;
+  }
+  .dinomaniacs-section-1:before {
+    display: none;
+  }
+  .dinomaniacs-title {
+    width: 100% !important;
+  }
+  .dinomaniacs-section-1 {
+    padding: 50px 15px;
+  }
+  .dinomaniacs-sub_icon h2 {
+    font-size: 20px !important;
+  }
+  .dinomaniacs-sub_icon {
+    gap: 20px;
+  }
+  .dino-egg-img img {
+    height: unset !important;
+  }
+  .dinomaniacs-section-2:before {
+    display: none;
+  }
+  .dinomaniacs-section-2:after {
+    display: none;
+  }
+  .dinomaniacs-section-3:before {
+    display: none;
+  }
+  .dinomaniacs-section-3:after {
+    display: none;
+  }
+  .dinorace-track_title {
+    width: 100% !important;
+  }
+  .dinomaniacs-section-3 {
+    padding: 50px 15px !important;
+  }
+  .dinomaniacs-section-4 {
+    padding: 50px 15px !important;
+  }
+  .dinosaur-pinata_title {
+    width: 100% !important;
+  }
+  .dinosaur-pinata_title img {
+    width: 100% !important;
+    margin-left: -20px;
+  }
+  .dinomaniacs-section-5 {
+    padding: 50px 15px !important;
+  }
+  .dinoblox-title {
+    width: 100% !important;
+  }
+  .creatuniq-world_section {
+    padding: 50px 15px 84px !important;
+  }
+  .exclusive-signup {
+    width: 100% !important;
+  }
+  .footer {
+    padding: 0 15px !important;
+  }
+  .footer-links {
+    flex-wrap: wrap !important;
+  }
+  .all_right {
+    padding: 0 15px !important;
+  }
+  .merge-caption {
+    flex-wrap: wrap;
+  }
+  .dinomaniacs-btn a {
+    padding: 10px 20px 8px !important;
+    display: block;
+    margin-top: 20px;
+  }
+  .dinomaniacs-btn {
+    width: 50%;
+    margin: auto;
+  }
+  .dinoblox-title img {
+    left: unset !important;
+  }
+}
+
+/* btn hover effect */
+.dinomaniacs-btn {
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.dinomaniacs-btn a:hover {
+  background-color: rgb(42, 53, 36);
+  border-color: rgb(217, 252, 61);
+  color: rgb(217, 252, 61);
+}
+a.extra-piece:hover {
+  background-color: transparent !important;
+  color: #314329 !important;
+  border-color: #314329 !important;
+}
+a.dinoblox-extra-piece:hover {
+  background-color: #0b8e00 !important;
+  border-color: #0b8e00 !important;
+  color: #fff !important;
+}
+a.dinoblox-extra-piece:hover span i {
+  color: #314329;
+}
+a.extra-piece:hover span i {
+  color: #314329;
+}
+.dinomaniacs-sub_icon h2:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.dinoblox-title img {
+  height: 109px;
+  object-fit: contain;
+  position: relative;
+  left: -87px;
+}
+.down-arrow i {
+  cursor: pointer;
+}
+.header-icon i {
+  cursor: pointer;
+}
+input[type="Submit"]:hover {
+  width: 32%;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header-banner {
+    height: 725px;
+  }
+  .dinomaniacs-section-1:after {
+    top: 0px;
+    left: 0px;
+  }
+  .site-title br {
+    display: none;
+  }
+  .dinomaniacs-section-2:after {
+    top: 280px;
+    left: 0;
+  }
+  .dinomaniacs-section-3:after {
+    top: -55px;
+  }
+  .dinomaniacs-section-4:before {
+    width: 19%;
+    height: 71%;
+    bottom: -120px;
+    right: 0px;
+    z-index: 1;
+  }
+}
+.dinomaniacs-footer {
+  position: relative;
+  top: -36px;
+}

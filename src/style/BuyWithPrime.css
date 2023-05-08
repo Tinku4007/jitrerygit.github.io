@@ -1,0 +1,945 @@
+.constructor {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.amazon-banner {
+    background-color: #dddee4;
+    padding: 80px 15px;
+}
+
+.amazon-product {
+    display: flex;
+}
+
+.product_box-img {
+    width: 67%;
+}
+
+.product_box {
+    width: 33%;
+    position: relative;
+}
+
+.product_box h4 {
+    font-family: "AmsiPro Ultra";
+    line-height: 1.2;
+    color: #212529;
+    font-size: 19px;
+    display: block;
+}
+
+.product_box h2 {
+    font-family: "AmsiPro Ultra";
+    font-weight: 500;
+    color: #212529;
+    font-size: 48px;
+    display: block;
+    line-height: 50px;
+}
+
+.product_box strong {
+    color: #3182ff;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size: 48px;
+    font-family: AmsiPro Ultra;
+}
+
+.product_box p {
+    font-family: "AmsiPro Ultra";
+    font-size: 18px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 20px;
+    line-height: 22px;
+}
+
+.buy-with-prime {
+    background-color: #f8f8f8;
+    padding: 80px 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.buy-with-prime::after {
+    content: "";
+    position: absolute;
+    background-image: url("../../public/img/img-left-side-construction.jpg");
+    background-repeat: no-repeat;
+    top: 149px;
+    height: 60%;
+    z-index: -1;
+    width: 182px;
+    background-position: center;
+    background-size: 100%;
+    left: 0px;
+}
+
+.buy-with-prime::before {
+    content: "";
+    position: absolute;
+    background-image: url("../../public/img/img-right-side-construction.jpg");
+    background-repeat: no-repeat;
+    top: 204px;
+    height: 60%;
+    z-index: -1;
+    width: 188px;
+    background-position: center;
+    background-size: 100%;
+    right: 0px;
+}
+
+.construction-box {
+    width: 50%;
+}
+
+.construction-box-title {
+    padding: 80px 0px;
+    width: 50%;
+}
+
+.sub-title p {
+    text-align: center;
+    font-family: 'AmsiPro-Bold' !important;
+    margin: 15px;
+    font-size: 19px;
+    margin-top: 25px;
+}
+
+.construction-box-title h2 {
+    font-family: "AmsiPro Ultra";
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    color: #212529;
+}
+
+.construction-logo-img {
+    width: 86%;
+}
+
+.construction-rating i {
+    width: 18px !important;
+    padding-right: 1px !important;
+    height: 18px !important;
+    font-size: 20px;
+    color: #cccccc;
+}
+
+.construction-rating {
+    display: flex;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.construction-rating h6 {
+    color: #111111;
+    font-size: 18px;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.construction-title p {
+    font-family: 'Clayton', sans-serif;
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.construction-price h6 {
+    font-family: 'Teko', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.construction-price span {
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #000;
+    font-weight: 100;
+}
+
+.construction-price h5 {
+    font-family: 'Clayton', sans-serif;
+    background-color: #f33;
+    color: #fff;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+.construction-icon {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    align-items: center;
+}
+
+.construction-icon h2 {
+    font-family: 'Teko', sans-serif;
+    font-size: 26px;
+    color: #3b472f;
+    font-weight: 600;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    letter-spacing: 0.03rem;
+}
+
+.construction-btn {
+    position: relative;
+    background: #2e85ff;
+    padding: 62px 29px 9px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 5px 10px 0px;
+    filter: blur(0px) grayscale(0%) brightness(100%);
+}
+
+.construction-btn:after {
+    position: absolute;
+    content: '';
+    background-image: url(../../public/img/buy-with-prime-text.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 19px;
+    left: 0;
+    width: 100%;
+    height: 64%;
+}
+
+.sub-title p {
+    text-align: center;
+    font-family: 'AmsiPro Bold';
+    margin: 15px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.riview {
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.buy-with-prime-img {
+    padding: 100px;
+}
+
+.riview span {
+    border-left: 2px solid #000;
+}
+
+.riview h4 {
+    color: #3b472f;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    display: block;
+    color: #212529;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.funny-night_section {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.funny_title {
+    width: 50%;
+}
+
+.funny_title h5 {
+    font-family: 'AmsiPro Ultra', sans-serif;
+    font-size: 34px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #212529;
+}
+
+.funny_title p {
+    font-family: 'Clayton', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+.child-creativity {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.child-creativity_box {
+    width: 50%;
+}
+
+.child-creativity_box h4 {
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #212529;
+    font-family: 'AmsiPro Ultra', sans-serif;
+    font-size: 34px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.child-creativity_box p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    font-family: 'Clayton', sans-serif;
+}
+
+.child-creativity_section {
+    background-color: #f8f8f8;
+    padding: 0 15px;
+}
+
+.bullet-points {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 0 15px;
+}
+
+.bullet-box {
+    width: 50%;
+}
+
+.bullet-box h5 {
+    margin-bottom: 20px;
+    font-family: 'AmsiPro Ultra', sans-serif;
+    font-size: 34px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 500;
+    color: #212529;
+}
+
+.bullet_list h1 {
+    font-family: 'Clayton', sans-serif;
+    font-size: 18px;
+    color: #313131;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
+
+.bullet_list span {
+    font-family: 'AmsiPro Black', sans-serif;
+    color: rgb(42, 53, 36);
+    height: 35px;
+    width: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background: #ffbe00;
+}
+
+.more-stem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.more-stem_box {
+    width: 25%;
+}
+
+.more-stem-caption h1 {
+    font-size: 44px;
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'AmsiPro Ultra', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #212529;
+}
+
+.more-stem-btn a {
+    display: block;
+    width: 65%;
+    height: auto;
+    margin: auto;
+    font-family: Teko;
+    font-size: 20px;
+    color: rgb(42, 53, 36);
+    background-color: rgb(217, 252, 61);
+    text-transform: uppercase;
+    letter-spacing: 0.9505px;
+    text-decoration: none;
+    border-color: rgb(42, 53, 36);
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 5px 10px 0px;
+    padding: 10px 30px 8px;
+    border-radius: 8px;
+    filter: blur(0px) grayscale(0%) brightness(100%);
+    transition: 0.2s ease-in-out;
+}
+
+.fasttrace {
+    display: flex;
+    padding: 3%;
+    gap: 50px;
+
+}
+
+.fasttrace-title {
+    width: 50%;
+}
+
+.fasttrace-title h2 {
+    font-family: "AmsiPro Ultra";
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 26px;
+    margin: 15px 0;
+    color: #212529;
+}
+
+.flashtrach-img {
+    width: 400px;
+    margin-top: 35px;
+}
+
+.construction-rating h6 {
+    padding: 0.15em 0 0 0 !important;
+    color: #000000 !important;
+    font-size: 18px !important;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase !important;
+    font-weight: 600;
+    font-style: normal !important;
+    text-decoration: none !important;
+    line-height: 19.5px !important;
+}
+
+.site-title p {
+    font-family: 'Clayton', sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #212529;
+    /* font-weight: bold; */
+    text-align: left;
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.dinotrack {
+    display: flex;
+    gap: 0%;
+}
+
+.dino-box {
+    width: 50%;
+}
+
+.dino-box-img {
+    width: 50%;
+}
+
+.dino-box h5 {
+    font-family: "AmsiPro Ultra";
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 26px;
+    margin-bottom: 20px;
+    color: #212529;
+}
+
+section.dino-track_section {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.fasttrace_section {
+    padding: 80px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.fasttrace_section::before {
+    position: absolute;
+    content: "";
+    background-image: url(../../public/img/img-right-side-flashtrack.jpg);
+    width: 17%;
+    height: 100%;
+    background-repeat: no-repeat;
+    top: -7px;
+    background-position: center center;
+    z-index: -1;
+    background-size: 61%;
+    right: 0px;
+}
+
+.fasttrace_section:after {
+    position: absolute;
+    content: '';
+    background-image: url(../../public/img/img-left-side-flashtrack.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    top: 137px;
+    z-index: -1;
+    background-size: 14%;
+    left: -26px;
+}
+
+section.dino-track_section:after {
+    content: '';
+    position: absolute;
+    background-image: url(../../public/img/img-left-side-dinotrack.jpg);
+    width: 10%;
+    height: 90%;
+    background-repeat: no-repeat;
+    top: -12px;
+    z-index: -1;
+    background-position: center;
+    left: 0;
+    background-size: contain;
+}
+
+section.dino-track_section:before {
+    content: '';
+    position: absolute;
+    background-image: url(../../public/img/img-right-side-dinotrack.jpg);
+    width: 202px;
+    height: 59%;
+    top: 182px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-position: center;
+    right: 0px;
+    background-size: cover;
+}
+
+/* ------------------responceive------------------- */
+
+@media (max-width:768px) {
+    .product_box {
+        width: 68%;
+        position: relative;
+    }
+
+    .product_box-img {
+        width: 54%;
+        z-index: 1;
+        position: absolute;
+        right: 0;
+    }
+
+    .product_box p {
+        bottom: -66px;
+    }
+
+    .constructor {
+        flex-direction: column;
+    }
+
+    .funny-night_section {
+        flex-direction: column;
+    }
+
+    .funny_title {
+        width: 100%;
+    }
+
+    .child-creativity {
+        flex-direction: column;
+    }
+
+    .bullet-points {
+        flex-direction: column;
+    }
+
+    .buy-with-prime::before {
+        display: none;
+    }
+
+    .buy-with-prime::after {
+        display: none;
+    }
+
+    .buy-with-prime {
+        text-align: center;
+    }
+
+    .construction-rating {
+        justify-content: center;
+    }
+
+    .site-title p {
+        text-align: center;
+        padding: 0 6%;
+    }
+
+    .construction-icon {
+        margin: 0;
+    }
+
+    .fasttrace_section::before {
+        display: none;
+    }
+
+    .fasttrace_section:after {
+        display: none;
+    }
+
+    .fasttrace {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .fasttrace-title {
+        text-align: center;
+        width: 80%;
+    }
+
+    .flashtrach-img {
+        margin: auto;
+    }
+
+    section.dino-track_section:after {
+        display: none;
+    }
+
+    section.dino-track_section:before {
+        display: none;
+    }
+
+    .dinotrack {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dino-box {
+        text-align: center;
+        width: 80%;
+    }
+
+    .amazon-banner {
+        background-color: #dddee4;
+        padding: 40px 10px 88px;
+    }
+
+    .site-title br {
+        display: none;
+    }
+
+    .construction-logo-img {
+        width: 100%;
+    }
+
+    .construction-btn {
+        width: 100% !important;
+    }
+
+    .fasttrace_section {
+        padding: 40px 0;
+    }
+
+    section.dino-track_section {
+        padding: 40px 0;
+    }
+
+    .footer {
+        padding: 0 15px;
+    }
+
+    .all_right {
+        padding: 0 15px;
+    }
+
+    .allright_caption {
+        width: 100% !important;
+    }
+
+    .construction-box-title {
+        width: 80%;
+        padding: 0;
+    }
+
+    .construction-box {
+        width: 70%;
+    }
+
+    .construction-logo-img img {
+        height: 50px;
+        object-fit: contain;
+    }
+
+    .dino-box-img {
+        width: 80%;
+    }
+}
+
+@media (max-width:500px) {
+    .product_box {
+        width: 100% !important;
+    }
+
+    .product_box-img {
+        width: 100% !important;
+        position: unset !important;
+    }
+
+    .amazon-product {
+        flex-direction: column-reverse !important;
+    }
+
+    .construction-box {
+        width: 100% !important;
+    }
+
+    .construction-box-title {
+        width: 100% !important;
+        padding: 20px 0;
+    }
+
+    .construction-icon {
+        display: flex;
+        justify-content: center !important;
+        margin: 5px auto;
+        align-items: center;
+        flex-direction: column !important;
+        padding-bottom: 20px;
+    }
+
+    .construction-icon h2 {
+        font-size: 21px;
+    }
+
+    .riview {
+        text-align: center;
+        margin: 50px 10px;
+    }
+
+    .buy-with-prime-img {
+        padding: 0px 15px;
+    }
+
+    .child-creativity {
+        gap: 5px;
+    }
+
+    .child-creativity_box {
+        width: 100%;
+    }
+
+    .fasttrace_section {
+        padding: 40px 15px !important;
+    }
+
+    .fasttrace-title {
+        width: 100% !important;
+    }
+
+    .flashtrach-img {
+        width: 100%;
+    }
+
+    .dino-box {
+        width: 100% !important;
+    }
+
+    .dino-box img {
+        width: 100% !important;
+    }
+
+    section.dino-track_section {
+        padding: 40px 15px 20px;
+    }
+
+    .construction-box-title h2 {
+        font-size: 26px;
+    }
+
+    .buy-with-prime {
+        padding: 50px 15px 15px;
+    }
+
+    .exclusive-signup {
+        width: 100% !important;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+    }
+
+    .merge-caption {
+        flex-wrap: wrap;
+    }
+
+    /* .product_box br {
+        display: none;
+    } */
+    .product_box h2 {
+        font-size: 28px !important;
+        line-height: 1.14;
+    }
+
+    .product_box h2 span {
+        font-size: 19px !important;
+        line-height: 1.14;
+    }
+
+    .product_box strong {
+        font-size: 25px !important;
+    }
+
+    .footer-logo img {
+        width: 54% !important;
+    }
+
+    .merge-caption {
+        flex-wrap: wrap !important;
+    }
+
+    .allright_caption {
+        width: 100% !important;
+    }
+
+    .allright_social-icon {
+        width: 50% !important;
+    }
+
+    .allright-img {
+        width: 50%;
+    }
+
+    .construction-btn {
+        padding: 50px 29px 9px;
+    }
+
+    .construction-btn:after {
+        height: 55%;
+    }
+
+    .product_box em {
+        font-size: 15px;
+    }
+}
+
+.product_box em {
+    color: #212529;
+}
+
+
+@media (min-width:769px) and (max-width:1200px) {
+    .buy-with-prime::before {
+        top: 214px;
+        height: 60%;
+    }
+
+    .site-title br {
+        display: none;
+    }
+
+    .fasttrace_section:after {
+        width: 38%;
+        height: 65%;
+        background-repeat: no-repeat;
+        top: 203px;
+        z-index: -1;
+        background-size: 44%;
+        left: 0;
+    }
+
+    .construction-box img {
+        z-index: -1;
+    }
+
+    .construction-box img {
+        padding-left: 50px;
+    }
+
+    .buy-with-prime::after {
+        top: 180px;
+    }
+
+    .fasttrace-title img {
+        padding-right: 40px;
+    }
+
+    .fasttrace_section::before {
+        width: 15%;
+        top: -43px;
+        background-size: contain;
+    }
+
+    .dinotrack {
+        align-items: center;
+    }
+
+    .dino-box .site-title p {
+        padding-right: 80px;
+    }
+
+    .dino-box .construction-btn {
+        width: 82% !important;
+    }
+
+    .dino-box-img img {
+        height: 419px;
+        object-fit: contain;
+    }
+
+    section.dino-track_section:after {
+        top: 19px;
+    }
+
+    .amazon-banner {
+        background-color: #dddee4;
+        padding: 80px 57px;
+    }
+
+    .product_box {
+        width: 40%;
+    }
+
+    .product_box strong {
+        font-size: 43px;
+    }
+
+    .product_box p {
+        bottom: 0px;
+    }
+}
+
+input[type="Submit"] {
+    width: 30%;
+}

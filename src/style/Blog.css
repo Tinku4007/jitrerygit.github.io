@@ -1,0 +1,499 @@
+.blog-page-banner .container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.blog{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6), transparent 100%);
+}
+.button_tab {
+    background: #ededed;
+}
+.blog-page-banner{
+    background-image: url(../../public/images/jg-blog-header-bg.jpg);
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-images-dino-kid {
+    position: relative;
+}
+
+img.dino-img {
+    left: 125px;
+    position: relative;
+    width: 600px;
+    bottom: -190px;
+    object-fit: contain;
+    z-index: 1;
+}
+
+img.kid-img {
+    position: absolute;
+    right: 24%;
+    bottom: -61px;
+    height: 375px
+}
+.active{
+    display: block;
+}
+.hide{
+    display: none;
+}
+
+ul{
+    padding: 0px;
+    
+}
+ul li{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.list{
+    width: 100px;
+    height: 100px;
+    background: #EEE;
+    padding: 10px;        
+}
+.activelink{
+    color: red;        
+}
+.blog-page .container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+section.blogs-tab-section {
+    padding-bottom: 100px;
+}
+section.trusted-by-millions {
+    padding-bottom: 70px;
+}
+/* RESPONSIVE CSS START */
+@media(max-width:480px){
+    .banner-section {
+        height: 330px;
+    }
+    .banner-section h1 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-top: 70px;
+    }
+    section.high-quilaty-content-section {
+        padding: 60px 0px;
+    }
+    .high-quilaty-content-section .inner-content-wraper {
+        flex-direction: column;
+    }
+    .high-quilaty-content-section .inner-content-wraper .high-quality {
+        width: 100%;
+    }
+    .high-quilaty-content-section .inner-content-wraper .high-quality h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .our-brands .brand-flex-div {
+        flex-direction: column;
+    }
+    .brand-content {
+        width: 100%;
+    }
+    .top-border-line:before {
+        top: -3px;
+        left: 0;
+    }
+    section.our-brand-scetion {
+        padding: 60px 0px;
+    }
+    .our-brands .brand-title h1 {
+        font-size: 50px;
+
+    }
+    .brand-text-area p {
+        width: 100%;
+    }
+    .testomonial-content h1 {
+        line-height: 38px;
+    }
+    .testomonial-content p br {
+        display: none;
+    }
+    .testomonial-content p {
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .brand-content.robotryx {
+        margin-top: 20px;
+    }
+    .brand-flex-div.dino-div-about {
+        flex-direction: column-reverse;
+    }
+    section.our-brand-scetion {
+        padding-bottom: 0;
+    }
+    .testimonial-slider .slick-custom-arrow.slick-custom-arrow-right {
+        right: 0;
+    }
+    .testimonial-slider .slick-custom-arrow.slick-custom-arrow-left {
+        left: 0;
+    }
+    .testimonial-slider .slick-custom-arrow i {
+        font-size: 20px;
+    }
+    .brand-content.dinomaniacs img {
+        width: 100%;
+        height: 286px;
+        object-fit: cover;
+    }
+    .product-catalog-content {
+        flex-direction: column;
+    }
+    .product-catalog-content > div {
+        width: 100%;
+        padding: 55px 50px;
+        gap: 60px;
+    }
+    .inner-two-divs {
+        flex-direction: column;
+    }
+    section.trusted-by-millions {
+        padding-bottom: 40px;
+    }
+    .product-bg-img.product-catalog {
+
+        height: 280px;
+    }
+}
+
+
+  
+section.blogs-tab-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    padding-top: 25px;
+}
+.blog-card-img img {
+    height: 250px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.blog-card {
+    background: #ededed;
+    border-radius: 20px;
+    width: 33%;
+}
+a.post-thumbnail img {
+    border-radius: 20px 20px 0px 0px;
+    width:100%;
+}
+.blog-card-img {
+    position: relative;
+}
+.birthday-tag{
+    background: #ffcc00 !important;
+}
+a.tag {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    background: #9acd32;
+    padding: 5px 20px 0px;
+    border-radius: 8px 0px 0px 8px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+}
+.blog-card-body {
+    padding: 20px;
+    position: relative;
+}
+.blog-card-date {
+    position: absolute;
+    top: -50px;
+}
+.blog-card-date p {
+    padding: 3px 10px 0;
+    background: #f1f1f1;
+    color:black;
+    font-family: 'Teko', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px; 
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
+    font-size: 18px;
+}
+.blog-card-heading a {
+    color: #000;
+    text-decoration: none;
+}
+.blog-card-heading h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1px;
+    line-height: 28px;
+}
+.blog-card-content p {
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: clayton;
+    color: #212529;
+}
+.read-more-btn a{
+    font-family: 'Teko', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: #000;
+    text-decoration: none;
+    padding: 8px 24px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+.read-more-btn {
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+/* FILTER-PRODUCT */
+.buttons {
+    width:100%;
+    margin:auto;
+    text-align:center;
+}
+    
+button {
+    background-color:#F4DBD8;
+    color:#222222;
+    padding:20px;
+    margin:10px;
+    font-size:1em;
+}   
+.tab-1, .tab-2, .tab-3,.tab-4 {
+    color:#fff;
+    width:95%;
+    margin-bottom:2%;
+    margin:10px auto;
+}    
+.active {
+    background-color:#93032E;
+    color:#fff;
+}
+input[type=checkbox].css-checkbox {
+    position:absolute; z-index:-1000;
+     left:-1000px;
+      overflow: hidden; 
+     clip: rect(0 0 0 0); 
+     height:1px; 
+     width:1px; 
+     margin:-1px; 
+     padding:0; 
+     border:0;
+}
+input[type=checkbox].css-checkbox + label.css-label {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-family: 'Teko', sans-serif;
+}
+input[type=checkbox].css-checkbox:checked + label.css-label {
+    background-position: 77px -28px;
+}
+section.blog-filter-product .contents {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+section.blog-filter-product {
+    padding-bottom: 100px;
+} 
+section.blog-filter-product .buttons {
+    padding-top: 120px;
+    padding-bottom: 40px;
+    background: #ededed;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 60%;
+} 
+section.blog-filter-product .container {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.checkmark {
+    position: relative;
+    height: 25px;
+    width: 25px;
+    margin-left: 15px;
+    background-color: #ccc;
+    display: block;
+} 
+.checkmark:after {
+    position: absolute;
+    content: "";
+    left: 8px;
+    top: 3px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}  
+input:checked ~ .checkmark {
+    background-color: #9acd32;
+} 
+input:checked ~ .checkmark:after {
+    display: block;
+    border: solid #007a00;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+} 
+.tab-nav {
+    display: flex;
+    justify-content: center;
+}
+.tab-nav {
+    background: #ddd;
+    padding: 8px 10px;
+    border-radius: 6px;
+    width: 50%;
+    margin: auto;
+} 
+.tab-nav:hover input ~ .checkmark {
+    background-color: #e5e7da;
+}      
+.tab-nav:hover input.active ~ .checkmark{
+    background-color: #9acd32;
+}
+
+ @media(max-width:480px){
+    section.blog-filter-product .contents {
+        grid-template-columns: repeat(1,1fr);
+    }
+    section.blog-filter-product .buttons {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100% !important;
+    }
+    img.dino-img {
+        left: 0px;
+        width: 300px;
+        bottom: -170px;
+    }
+    .blog-page-banner {
+        height: 350px;
+        background-position: inherit;
+    }
+    img.kid-img {
+        right: -18px;
+        bottom: -101px;
+        height: 173px;
+    }
+    section.blog-filter-product .buttons {
+        padding-top: 60px;
+    }
+    input[type=checkbox].css-checkbox + label.css-label {
+        font-size: 19px;
+    }
+    .blog-card-img img {
+        height: 210px;
+    }
+    .blog-card-heading h1 {
+        letter-spacing: 0;
+    }
+    .blog-card-content p {
+        letter-spacing: 0.5px;
+        font-size: 17px;
+    }
+    .contact-banner-section h1 {
+        font-size: 50px;
+    }
+    .contact-banner-section {
+        height: 300px;
+    }
+    .contact-page-content .inner-content-wraper {
+        flex-direction: column;
+    }
+    .contact-page-content .inner-content-wraper .we-hear {
+        width: 100%;
+    }
+    .contact-page-content .inner-content-wraper .we-hear h1 {
+        font-size: 60px;
+        line-height: 50px;
+    }
+    .contact-form-section .contact-us-form-text {
+        flex-direction: column;
+    }
+    section.contact-page-content {
+        padding: 60px 0px;
+    }
+    section.contact-form-section {
+        padding-bottom: 30px;
+    }
+ }
+
+ @media(min-width:500px) and (max-width:769px){
+    img.dino-img {
+        left: 70px;
+        width: 500px;
+        bottom: -246px;
+    }
+    img.kid-img {
+        right: 11%;
+        bottom: -142px;
+        height: 300px;
+    }
+    section.blog-filter-product .contents {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .brand-content.dinomaniacs img {
+        width: 100%;
+        height: 330px;
+        object-fit: cover;
+    }
+    .testimonial-slider .slick-custom-arrow.slick-custom-arrow-right {
+        right: 0;
+    }
+    .testimonial-slider .slick-custom-arrow.slick-custom-arrow-left {
+        left: 0;
+    }
+    .inner-two-divs {
+        flex-direction: column;
+    }
+    .product-catalog-content > div {
+        padding: 30px 40px;
+    }
+ }
+ @media(min-width:800px) and (max-width:1080px){
+    img.kid-img {
+        right: 17%;
+        bottom: -61px;
+        height: 367px;
+    }
+ }

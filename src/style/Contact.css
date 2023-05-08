@@ -1,0 +1,197 @@
+.contact-us-page .container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.contact-banner-section{
+    background-image: url(../../public/images/contact-header.webp);
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-banner-section h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 90px;
+    line-height: 75px;
+    font-weight: 900;
+}
+section.contact-banner-section .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-page-content .inner-content-wraper {
+    display: flex;
+    gap: 20px;
+}
+.contact-page-content .inner-content-wraper .we-hear {
+    width: 50%;
+    position: relative;
+}
+section.contact-page-content {
+    padding: 80px 0px;
+}
+.contact-page-content .inner-content-wraper .we-hear h1 {
+    font-size: 70px;
+    line-height: 60px;
+    color:#212529;
+    font-weight: 800;
+}
+.contact-page-content .inner-content-wraper .we-hear p {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    font-family: sans-serif;
+    color: #212529;
+    font-weight: 400;
+}
+.contact-page-content .inner-content-wraper .contact-heading-text:before {
+    content: "";
+    background: #212529;
+    height: 4px;
+    width: 100px;
+    border: 1px solid;
+    position: absolute;
+    top: -12px;
+}
+.contact-form-section .contact-us-form-text {
+    gap: 10px;
+    display: flex;
+}
+.contact-form-section .contact-us-form-text div {
+    width: 100%;
+}
+.contact-heading h1 {
+    font-size: 40px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #212529;
+}
+.contact-para-infos p, .contact-para-infos a {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    color: #212529;
+    font-weight: 500;
+    font-family: 'clayton';
+}
+.contact-para-infos a {
+    color:#007bff;
+    text-decoration: none;
+}
+.contact-para-infos h4{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    color: #212529;
+    margin-bottom: 15px;
+    font-family: 'teko';
+}
+.contact-para-infos > div {
+    margin-bottom: 15px;
+}
+.contact-us-form.contact-form p {
+    font-size: 16px;
+    font-family: 'Clayton', sans-serif;
+    letter-spacing: 0.5px;
+    color: #212529;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+.contact-us-form.contact-form a {
+    color:#007bff;
+    text-decoration: none;
+}
+.contact-form-feilds .field-row input {
+    font-size: 20px;
+    padding: 12px 16px;
+    color: #313131;
+    background: #eaeaea;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+}
+.contact-form-feilds .field-row textarea {
+    font-size: 20px;
+    padding: 12px 16px;
+    color: #313131;
+    background: #eaeaea;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    height: 200px;
+}
+.submit-btn button {
+    font-size: 20px;
+    color: #fff;
+    background: #313131;
+    line-height: 15px;
+    letter-spacing: 1.1px;
+    padding: 18px 35px;
+    border: none;
+    font-family: 'teko';
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+section.map-location iframe {
+    width: 100%;
+}
+section.contact-form-section {
+    padding-bottom: 100px;
+}
+.product-catalog-content > div {
+    width: 100%;
+    padding: 70px 70px;
+    gap: 40px;
+}
+.product-catalog-content {
+    display: flex;
+    width: 100%;
+}
+.product-bg-img.product-catalog {
+    background-image: url(../../public/images/catalog-jittery-git.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inner-two-divs>div {
+    width: 100%;
+}
+.inner-two-divs {
+    display: flex;
+    background: #cccccc;
+}
+.pdf-file-icon img {
+    width: 28px;
+    height: 38px;
+}
+.dollybag-icon i {
+    font-size: 30px;
+    color: #313131;
+    margin-bottom: 15px;
+}
+.product-catalog-heading h1 {
+    font-size: 30px;
+    line-height: 25px;
+    color: #212529;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.product-catalog-btn a {
+    color: #666;
+    background-color: #fff;
+    padding: 14px 20px;
+    font-family: 'teko';
+    font-weight: 600;
+    /* letter-spacing: 0.5px; */
+    font-size: 18px !important;
+    border: none;
+    text-decoration: none;
+}
